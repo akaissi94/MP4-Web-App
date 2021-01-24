@@ -4,6 +4,9 @@
 
 ## Running the application
 
-- "npm install" inside "mp4-web-app" folder
+- "npm install" inside:
 
-- "npm start"
+  - "MP4-Web-App" folder if you do git clone
+  - "MP4-Web-App-main" folder if you download as zip
+
+- "npm start" (starts on port 3000)
