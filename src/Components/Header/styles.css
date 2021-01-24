@@ -1,0 +1,152 @@
+.header_container {
+  height: 35px;
+  padding: 20px 15px;
+  position: fixed;
+  top: 0px;
+  width: calc(100% - 30px);
+  background-color: white;
+  z-index: 1;
+}
+
+.header_round {
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  background-color: #2681f2;
+  border-radius: 17px;
+  position: relative;
+}
+
+.header_center-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header_letter-inner {
+  width: 20px;
+  height: 34px;
+  overflow: hidden;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #f7f7f8;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Lato", serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+.header_float-right {
+  float: right;
+}
+
+.header_icons {
+  width: 34px;
+  height: 34px;
+  overflow: visible;
+  border-radius: 5px;
+  position: relative;
+  margin: 0px 25px;
+  cursor: pointer;
+}
+
+.header_icons-inner {
+  width: 20px;
+  height: 20px;
+}
+
+.header_copy-link-button {
+  width: 171px;
+  height: 34px;
+  overflow: visible;
+  background-color: #2681f2;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.header_no-margin-right {
+  margin-right: 0px;
+}
+
+.header_main-title {
+  float: left;
+  margin-left: 260px;
+  width: 181px;
+  height: 28px;
+  overflow: visible;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  text-align: left;
+  color: #393856;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Lato", serif;
+}
+
+.header_search-open-icon {
+  width: 34px;
+  height: 34px;
+  overflow: visible;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  margin-left: 260px;
+}
+
+.header_search-open-main-title {
+  float: left;
+  margin-left: 8px;
+  border: none;
+  width: 133px;
+  height: 16px;
+  overflow: visible;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  text-align: left;
+  color: #393856;
+  font-weight: 900;
+  font-style: normal;
+  font-family: "Lato", serif;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header_link-icon {
+  height: 20px;
+  width: 20px;
+  -ms-transform: translateY(7px);
+  transform: translateY(7px);
+  margin-left: 16px;
+}
+
+.header_down-arrow {
+  width: 34px;
+  height: 34px;
+  overflow: visible;
+  background-color: #0e71eb;
+  border-radius: 5px;
+  position: relative;
+  float: right;
+}
+
+@media only screen and (max-width: 950px) {
+  .header_icons {
+    display: none;
+  }
+  .header_round {
+    display: none;
+  }
+  .header_copy-link-button {
+    display: none;
+  }
+}
